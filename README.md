@@ -1,4 +1,4 @@
-<a href="https://www.explorecareers.io">
+<a href="https://explore--careers.vercel.app/">
   <img alt="Explore Careers." src="./public/og-image.png">
   <h1 align="center">ExploreCareers</h1>
 </a>

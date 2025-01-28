@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 let title = 'Explore Careers';
 let description = 'Explore careers based on your interests & skills';
-let url = 'https://explorecareers.io/';
+let url = 'https://explore--careers.vercel.app/';
 let ogimage = 'https://explorecareers.io/og-image.png';
 let sitename = 'ExploreCareers.io';
 
