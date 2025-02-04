@@ -252,11 +252,11 @@ export default function Start() {
           </ReactFlow>
         </div>
       ) : (
-        <div className='p-4 mt-16 flex justify-center items-center flex-col '>
+        <div className='p-4 mt-16 flex justify-center items-center flex-col'>
           <h1 className='text-center text-5xl mb-5 font-bold'>
             Upload your resume
           </h1>
-          <p className='mb-8 text-center text-gray-600 max-w-3xl'>
+          <p className='mb-8 text-center text-gray-600 max-w-3xl p-0'>
             Upload your resume to get started and add any extra context below.
             We'll analyze your resume along with the interests you provide and
             provide you with 6 personalized career paths for you.
