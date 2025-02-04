@@ -9,10 +9,10 @@ export default function Hero() {
       <div className='custom-screen sm:pt-56 pt-28 text-gray-600 flex justify-between gap-8 sm:flex-row flex-col'>
         <div className='space-y-5 max-w-4xl text-center sm:w-1/2'>
           <p
-            className={`border border-gray-300 px-[15px] py-[5px] rounded-2xl hover:bg-gray-100 transition text-sm text-black hover:text-gray-600 w-max my-0 mx-auto shadow-[0px_1px_1px_0px_rgba(0,0,0,0.25)]`}
+            className={`border border-gray-300 px-[15px] py-[5px] rounded-2xl hover:bg-gray-100 transition text-xs text-black hover:text-gray-600 w-max my-0 mx-auto shadow-[0px_1px_1px_0px_rgba(0,0,0,0.25)]`}
           >
             Used by professionals for {" "}
-            <span className="text-sm font-medium">
+            <span className="text-xs font-medium">
               <b><i>Career Inspiration ♾️</i></b>
             </span>
           </p>
@@ -28,7 +28,7 @@ export default function Hero() {
               </a>
             </span>
           </p> */}
-          <h1 className='text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl'>
+          <h1 className='text-3xl text-gray-800 font-extrabold mx-auto sm:text-6xl'>
             Find the right career for you using AI
           </h1>
           <p className='max-w-xl mx-auto'>
