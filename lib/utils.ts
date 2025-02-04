@@ -39,7 +39,6 @@ export const uploaderOptions = {
       right: '10px',
     },
     textAlign: 'center',
-    lineHeight: '1.2',
   },
   tags: ['career_explorer'],
   locale: {
