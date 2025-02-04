@@ -252,7 +252,7 @@ export default function Start() {
           </ReactFlow>
         </div>
       ) : (
-        <div className='p-10 mt-16 flex justify-center items-center flex-col '>
+        <div className='p-4 mt-16 flex justify-center items-center flex-col '>
           <h1 className='text-center text-5xl mb-5 font-bold'>
             Upload your resume
           </h1>
@@ -277,7 +277,7 @@ export default function Start() {
             }}
             onComplete={() => console.log('upload complete')}
             width='695px'
-            height='350px'
+            height='250px'
           />
           <Textarea
             placeholder='Describe any of your career interests and passions. This will help us match you with the right job paths (optional).'

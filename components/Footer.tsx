@@ -8,7 +8,7 @@ const Footer = () => (
             href='https://devkrazyykunal.vercel.app/'
             className='hover:underline transition'
           >
-            Kunal Wankhede.
+            Kunal Wankhede
           </a>
         </p>
         <div className='flex items-center gap-x-6 text-gray-400'>
@@ -18,7 +18,7 @@ const Footer = () => (
             target='_blank'
           >
             <span className='text-gray-500'>
-              Powered by Together.ai and Llama-3.
+              Powered by Llama 3.1 and Meta AI
             </span>
           </a>
         </div>
