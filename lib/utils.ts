@@ -22,7 +22,9 @@ export function normalizeText(input: string): string {
 }
 
 export const uploaderOptions = {
-  apiKey: process.env.NEXT_PUBLIC_BYTESCALE_API_KEY,
+  apiKey: !!process.env.NEXT_PUBLIC_BYTESCALE_API_KEY
+    ? process.env.NEXT_PUBLIC_BYTESCALE_API_KEY
+    : 'free',
   maxFileCount: 1,
   mimeTypes: ['application/pdf'],
   editor: { images: { crop: false } },
@@ -32,7 +34,7 @@ export const uploaderOptions = {
     },
     textAlign: 'center',
   },
-  // tags: ['career_explorer'],
+  tags: ['career_explorer'],
   locale: {
     orDragDropFile: 'Your resume is automatically deleted after 24h',
     uploadFileBtn: 'Upload your Resume',
