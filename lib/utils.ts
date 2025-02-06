@@ -34,7 +34,7 @@ export const uploaderOptions = {
     },
     textAlign: 'center',
   },
-  tags: ['career_explorer'],
+  // tags: ['career_explorer'],
   locale: {
     orDragDropFile: 'Your resume is automatically deleted after 24h',
     uploadFileBtn: 'Upload your Resume',
