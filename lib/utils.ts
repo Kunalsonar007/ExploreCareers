@@ -22,9 +22,7 @@ export function normalizeText(input: string): string {
 }
 
 export const uploaderOptions = {
-  apiKey: !!process.env.NEXT_PUBLIC_BYTESCALE_API_KEY
-    ? process.env.NEXT_PUBLIC_BYTESCALE_API_KEY
-    : 'free',
+  apiKey: process.env.NEXT_PUBLIC_BYTESCALE_API_KEY,
   maxFileCount: 1,
   mimeTypes: ['application/pdf'],
   editor: { images: { crop: false } },
